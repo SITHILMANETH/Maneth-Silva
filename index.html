@@ -5,21 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta
     name="description"
-    content="Maneth Silva is a robotics and artificial intelligence undergraduate building intelligent systems, autonomous machines, and modern software experiences."
+    content="Maneth Silva is a robotics and artificial intelligence undergraduate showcasing robotics projects, AI experiments, technical skills, research interests, and contact details."
   >
   <title>Maneth Silva | Robotics & AI Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
     rel="stylesheet"
   >
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="site-shell">
-    <div class="background-orb orb-one"></div>
-    <div class="background-orb orb-two"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-grid"></div>
 
     <header class="site-header">
       <nav class="nav container">
@@ -36,10 +37,10 @@
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#robotics">Robotics</a>
+          <a href="#robotics-projects">Projects</a>
           <a href="#ai-experiments">AI</a>
-          <a href="#education">Education</a>
+          <a href="#research-learning">Research</a>
+          <a href="#github-work">GitHub</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -49,57 +50,68 @@
       <section class="hero section" id="home">
         <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <span class="eyebrow">Robotics x Artificial Intelligence</span>
-            <h1>Designing intelligent machines and software with a product mindset.</h1>
+            <span class="eyebrow">Robotics and Artificial Intelligence Developer</span>
+            <h1>Maneth Silva builds intelligent robotic systems with practical AI and disciplined engineering.</h1>
             <p class="hero-text">
-              I'm <strong>Maneth Silva</strong>, an undergraduate focused on robotics, embedded systems,
-              computer vision, and applied machine learning. I build clean interfaces, autonomous workflows,
-              and research-driven prototypes that feel production ready.
+              Robotics and artificial intelligence undergraduate focused on autonomous robots, neural networks,
+              embedded systems, and computer vision. I design prototypes that connect sensing, control,
+              learning, and clear technical presentation.
             </p>
 
             <div class="hero-actions">
-              <a class="button button-primary" href="#projects">View Selected Work</a>
-              <a class="button button-secondary" href="#contact">Let's Connect</a>
+              <a class="button button-primary" href="#robotics-projects">View Projects</a>
+              <a class="button button-secondary" href="#contact">Contact</a>
             </div>
 
-            <div class="hero-metrics">
-              <article class="metric-card">
-                <span class="metric-value">08+</span>
-                <span class="metric-label">End-to-end builds</span>
-              </article>
-              <article class="metric-card">
-                <span class="metric-value">05</span>
-                <span class="metric-label">AI prototype tracks</span>
-              </article>
-              <article class="metric-card">
-                <span class="metric-value">03</span>
-                <span class="metric-label">Robotics focus areas</span>
-              </article>
+            <div class="hero-chips" aria-label="Core domains">
+              <span>Autonomous robots</span>
+              <span>Neural networks</span>
+              <span>Embedded systems</span>
+              <span>Computer vision</span>
             </div>
           </div>
 
-          <div class="hero-visual reveal">
-            <div class="signal-card glass-panel">
-              <div class="signal-topline">
-                <span>Live Build Stack</span>
-                <span class="signal-badge">Active</span>
+          <div class="hero-panel reveal">
+            <div class="glass-panel dashboard-card">
+              <div class="panel-header">
+                <span>Engineering Snapshot</span>
+                <span class="status-pill">Available for collaboration</span>
               </div>
-              <div class="signal-graph">
-                <div class="graph-line graph-line-one"></div>
-                <div class="graph-line graph-line-two"></div>
+
+              <div class="signal-stage">
+                <article class="signal-card">
+                  <span class="signal-label">Current theme</span>
+                  <strong>Robotics x AI integration</strong>
+                  <p>Building systems where perception, learning, and control work together.</p>
+                </article>
+                <article class="signal-card">
+                  <span class="signal-label">Research direction</span>
+                  <strong>Learning-based autonomy</strong>
+                  <p>Exploring reinforcement learning, simulation, and adaptive robot behavior.</p>
+                </article>
+                <article class="signal-card">
+                  <span class="signal-label">Preferred stack</span>
+                  <strong>Python, C++, ESP32, Vision</strong>
+                  <p>Rapid prototyping on embedded and software systems with clean interfaces.</p>
+                </article>
               </div>
-              <div class="signal-grid">
-                <article>
-                  <span class="signal-label">Core Domains</span>
-                  <strong>Robotics, AI, UI Engineering</strong>
+
+              <div class="hero-metrics">
+                <article class="metric-card">
+                  <span class="metric-value">07</span>
+                  <span class="metric-label">Core skill tracks</span>
                 </article>
-                <article>
-                  <span class="signal-label">Current Goal</span>
-                  <strong>Human-centered autonomous systems</strong>
+                <article class="metric-card">
+                  <span class="metric-value">04</span>
+                  <span class="metric-label">Robotics project concepts</span>
                 </article>
-                <article>
-                  <span class="signal-label">Preferred Workflow</span>
-                  <strong>Prototype, test, iterate, ship</strong>
+                <article class="metric-card">
+                  <span class="metric-value">03</span>
+                  <span class="metric-label">AI experiment themes</span>
+                </article>
+                <article class="metric-card">
+                  <span class="metric-value">01</span>
+                  <span class="metric-label">Integrated portfolio</span>
                 </article>
               </div>
             </div>
@@ -108,37 +120,44 @@
       </section>
 
       <section class="about section" id="about">
-        <div class="container split-layout">
+        <div class="container about-grid">
           <div class="section-heading reveal">
-            <span class="eyebrow">About Me</span>
-            <h2>Engineering robotics and AI systems with clear thinking and clean execution.</h2>
+            <span class="eyebrow">About</span>
+            <h2>A robotics student portfolio designed to communicate technical depth with clarity.</h2>
           </div>
 
-          <div class="about-content">
-            <div class="glass-panel reveal">
-              <p>
-                I'm a robotics and artificial intelligence undergraduate who enjoys turning ambitious ideas
-                into disciplined, testable systems. My work sits at the intersection of hardware, software,
-                perception, and interface design.
-              </p>
-              <p>
-                I care about autonomous behavior, machine perception, model experimentation, and the kind
-                of software polish that makes technical work easier to trust, explain, and scale.
-              </p>
+          <div class="about-visual glass-panel reveal">
+            <img src="assets/images/profile-portrait.svg" alt="Illustrated portrait of Maneth Silva">
+            <div class="profile-meta">
+              <strong>Maneth Silva</strong>
+              <span>Robotics and Artificial Intelligence Undergraduate</span>
             </div>
+          </div>
 
-            <div class="about-highlights reveal">
-              <article class="highlight-card">
-                <span class="highlight-title">Focus</span>
-                <p>Embedded robotics, computer vision, control systems, and applied AI.</p>
+          <div class="about-copy reveal">
+            <p>
+              I am a robotics and artificial intelligence undergraduate interested in building autonomous
+              machines that combine robust control, modern sensing, and learning-based decision making.
+              My work focuses on turning ideas into testable systems with clear engineering structure.
+            </p>
+            <p>
+              I enjoy working across embedded electronics, ESP32 and microcontroller platforms, computer
+              vision, and neural network experiments. I care about both the technical layer and the way
+              the work is documented, presented, and explained.
+            </p>
+
+            <div class="info-grid">
+              <article class="info-card">
+                <span class="info-title">Focus</span>
+                <p>Autonomous robots, neural networks, embedded systems, and machine perception.</p>
               </article>
-              <article class="highlight-card">
-                <span class="highlight-title">Approach</span>
-                <p>Minimal interfaces, strong technical fundamentals, and measurable iteration.</p>
+              <article class="info-card">
+                <span class="info-title">Approach</span>
+                <p>Prototype fast, measure carefully, improve reliability, and communicate clearly.</p>
               </article>
-              <article class="highlight-card">
-                <span class="highlight-title">Goal</span>
-                <p>Build intelligent systems that move from prototype to practical deployment.</p>
+              <article class="info-card">
+                <span class="info-title">Goal</span>
+                <p>Build robotics and AI work that is useful for demos, research, and real systems.</p>
               </article>
             </div>
           </div>
@@ -149,34 +168,25 @@
         <div class="container">
           <div class="section-heading reveal">
             <span class="eyebrow">Skills</span>
-            <h2>Technical depth across robotics, AI, and modern software delivery.</h2>
+            <h2>Technical skills across software, embedded robotics, and intelligent perception.</h2>
           </div>
 
-          <div class="skills-grid">
-            <div class="skill-groups glass-panel reveal">
-              <article>
-                <h3>Programming</h3>
-                <p>Python, JavaScript, C++, MATLAB, SQL</p>
-              </article>
-              <article>
-                <h3>Robotics</h3>
-                <p>ROS, sensor integration, motion planning, control logic</p>
-              </article>
-              <article>
-                <h3>AI / ML</h3>
-                <p>Computer vision, deep learning, model evaluation, data pipelines</p>
-              </article>
-              <article>
-                <h3>Tooling</h3>
-                <p>Git, Linux, Figma, embedded debugging, rapid prototyping</p>
-              </article>
-            </div>
-
-            <div class="skill-bars glass-panel reveal">
+          <div class="skills-layout">
+            <div class="glass-panel skill-bars reveal">
               <div class="skill-bar" data-level="92">
                 <div class="skill-meta">
-                  <span>Python & Machine Learning</span>
+                  <span>Python</span>
                   <span>92%</span>
+                </div>
+                <div class="skill-track">
+                  <span class="skill-fill"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-level="84">
+                <div class="skill-meta">
+                  <span>C++</span>
+                  <span>84%</span>
                 </div>
                 <div class="skill-track">
                   <span class="skill-fill"></span>
@@ -185,7 +195,7 @@
 
               <div class="skill-bar" data-level="88">
                 <div class="skill-meta">
-                  <span>Robotics Systems</span>
+                  <span>Machine Learning</span>
                   <span>88%</span>
                 </div>
                 <div class="skill-track">
@@ -193,10 +203,20 @@
                 </div>
               </div>
 
-              <div class="skill-bar" data-level="85">
+              <div class="skill-bar" data-level="86">
                 <div class="skill-meta">
-                  <span>Computer Vision</span>
-                  <span>85%</span>
+                  <span>Robotics Control Systems</span>
+                  <span>86%</span>
+                </div>
+                <div class="skill-track">
+                  <span class="skill-fill"></span>
+                </div>
+              </div>
+
+              <div class="skill-bar" data-level="83">
+                <div class="skill-meta">
+                  <span>Embedded Systems</span>
+                  <span>83%</span>
                 </div>
                 <div class="skill-track">
                   <span class="skill-fill"></span>
@@ -205,126 +225,145 @@
 
               <div class="skill-bar" data-level="80">
                 <div class="skill-meta">
-                  <span>Frontend Development</span>
+                  <span>ESP32 and Microcontrollers</span>
                   <span>80%</span>
                 </div>
                 <div class="skill-track">
                   <span class="skill-fill"></span>
                 </div>
               </div>
+
+              <div class="skill-bar" data-level="87">
+                <div class="skill-meta">
+                  <span>Computer Vision</span>
+                  <span>87%</span>
+                </div>
+                <div class="skill-track">
+                  <span class="skill-fill"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-side reveal">
+              <div class="glass-panel capability-panel">
+                <span class="mini-label">Technical toolkit</span>
+                <h3>Technologies used in robotics prototypes, AI experiments, and research-led builds.</h3>
+                <div class="chip-group">
+                  <span>Python</span>
+                  <span>C++</span>
+                  <span>OpenCV</span>
+                  <span>ESP32</span>
+                  <span>Microcontrollers</span>
+                  <span>Sensor integration</span>
+                  <span>Simulation</span>
+                  <span>Model evaluation</span>
+                  <span>GitHub workflows</span>
+                </div>
+              </div>
+
+              <div class="glass-panel capability-panel">
+                <span class="mini-label">Working style</span>
+                <h3>Minimal presentation, structured experimentation, and systems thinking.</h3>
+                <p>
+                  I prefer building portfolio-ready work that balances technical exploration with readable
+                  documentation, reliable architecture, and strong visual communication.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="projects section" id="projects">
+      <section class="projects section" id="robotics-projects">
         <div class="container">
           <div class="section-heading reveal">
-            <span class="eyebrow">Selected Projects</span>
-            <h2>Large-format project cards designed to showcase technical detail and product thinking.</h2>
+            <span class="eyebrow">Robotics Projects</span>
+            <h2>Project cards for autonomous robots, control systems, and embedded experimentation.</h2>
           </div>
 
           <div class="project-grid">
             <article class="project-card glass-panel reveal">
               <div class="project-image">
-                <img src="assets/images/project-swarm.svg" alt="Visualization of an autonomous swarm robotics platform">
-              </div>
-              <div class="project-content">
-                <div class="project-tags">
-                  <span>Robotics</span>
-                  <span>Path Planning</span>
-                  <span>Simulation</span>
-                </div>
-                <h3>Swarm Coordination Simulator</h3>
-                <p>
-                  Multi-agent coordination environment for evaluating collective robot behavior, obstacle
-                  negotiation, and decentralized task allocation in warehouse-like spaces.
-                </p>
-                <div class="project-links">
-                  <a href="https://github.com/manethsilva/swarm-coordination-simulator" target="_blank" rel="noreferrer">GitHub</a>
-                  <a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" target="_blank" rel="noreferrer">Demo Video</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card glass-panel reveal">
-              <div class="project-image">
-                <img src="assets/images/project-vision.svg" alt="Visualization of an AI computer vision dashboard">
-              </div>
-              <div class="project-content">
-                <div class="project-tags">
-                  <span>AI</span>
-                  <span>Vision</span>
-                  <span>Analytics</span>
-                </div>
-                <h3>Vision-Based Safety Monitor</h3>
-                <p>
-                  Real-time object detection and safety zone monitoring pipeline designed for lab environments,
-                  pairing efficient inference with a clean operator dashboard.
-                </p>
-                <div class="project-links">
-                  <a href="https://github.com/manethsilva/vision-safety-monitor" target="_blank" rel="noreferrer">GitHub</a>
-                  <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" rel="noreferrer">Demo Video</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card glass-panel reveal">
-              <div class="project-image">
-                <img src="assets/images/project-drone.svg" alt="Visualization of an autonomous drone mission control interface">
+                <img src="assets/images/project-drone.svg" alt="Concept diagram for an autonomous obstacle avoiding robot">
               </div>
               <div class="project-content">
                 <div class="project-tags">
                   <span>Autonomy</span>
-                  <span>Embedded</span>
-                  <span>UI</span>
+                  <span>Sensors</span>
+                  <span>Control</span>
                 </div>
-                <h3>Autonomous Drone Mission Panel</h3>
+                <h3>Autonomous Obstacle Avoiding Robot</h3>
                 <p>
-                  Mission-planning interface and telemetry visualization for route testing, waypoint control,
-                  and high-level autonomous mission review with a startup-inspired UI.
+                  A mobile robot prototype designed to detect nearby obstacles, adjust its path in real time,
+                  and improve navigation stability through iterative control tuning.
                 </p>
                 <div class="project-links">
-                  <a href="https://github.com/manethsilva/drone-mission-panel" target="_blank" rel="noreferrer">GitHub</a>
-                  <a href="https://www.youtube.com/watch?v=aqz-KE-bpKQ" target="_blank" rel="noreferrer">Demo Video</a>
+                  <a href="https://github.com/SITHILMANETH?tab=repositories" target="_blank" rel="noreferrer">GitHub Repository</a>
                 </div>
               </div>
             </article>
-          </div>
-        </div>
-      </section>
 
-      <section class="robotics section" id="robotics">
-        <div class="container">
-          <div class="section-heading reveal">
-            <span class="eyebrow">Robotics Projects</span>
-            <h2>Systems work focused on autonomy, sensing, motion, and real-world control.</h2>
-          </div>
+            <article class="project-card glass-panel reveal">
+              <div class="project-image">
+                <img src="assets/images/project-swarm.svg" alt="Concept diagram for a hybrid neural network robot">
+              </div>
+              <div class="project-content">
+                <div class="project-tags">
+                  <span>Neural Networks</span>
+                  <span>Robotics</span>
+                  <span>Hybrid Systems</span>
+                </div>
+                <h3>Hybrid Neural Network Robot</h3>
+                <p>
+                  An experimental robotics concept combining traditional control rules with neural network
+                  outputs to explore adaptive robot behavior in structured tasks.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/SITHILMANETH?tab=repositories" target="_blank" rel="noreferrer">GitHub Repository</a>
+                </div>
+              </div>
+            </article>
 
-          <div class="feature-grid">
-            <article class="feature-card glass-panel reveal">
-              <span class="feature-index">01</span>
-              <h3>Robotic Arm Sorting Cell</h3>
-              <p>
-                Pick-and-place workflow using sensor feedback, actuator control, and object classification
-                logic for repeatable sorting tasks.
-              </p>
+            <article class="project-card glass-panel reveal">
+              <div class="project-image">
+                <img src="assets/images/project-vision.svg" alt="Concept diagram for robot navigation experiments">
+              </div>
+              <div class="project-content">
+                <div class="project-tags">
+                  <span>Navigation</span>
+                  <span>Computer Vision</span>
+                  <span>Simulation</span>
+                </div>
+                <h3>Robot Navigation Experiments</h3>
+                <p>
+                  A series of navigation studies exploring route planning, environment awareness,
+                  and perception-driven movement in simulated and prototype robotic systems.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/SITHILMANETH?tab=repositories" target="_blank" rel="noreferrer">GitHub Repository</a>
+                </div>
+              </div>
             </article>
-            <article class="feature-card glass-panel reveal">
-              <span class="feature-index">02</span>
-              <h3>Line Following Rover</h3>
-              <p>
-                Embedded controller tuned for stable path tracking, sensor fusion, and obstacle interruption
-                handling under varied lighting conditions.
-              </p>
-            </article>
-            <article class="feature-card glass-panel reveal">
-              <span class="feature-index">03</span>
-              <h3>SLAM Prototype Study</h3>
-              <p>
-                Mapping and localization experiments evaluating environment reconstruction, pose estimation,
-                and navigation consistency in constrained indoor spaces.
-              </p>
+
+            <article class="project-card glass-panel reveal">
+              <div class="project-image">
+                <img src="assets/images/project-control.svg" alt="Concept diagram for an ESP32 robotic control system">
+              </div>
+              <div class="project-content">
+                <div class="project-tags">
+                  <span>ESP32</span>
+                  <span>Embedded</span>
+                  <span>Robotics</span>
+                </div>
+                <h3>ESP32 Robotic Control System</h3>
+                <p>
+                  An embedded control concept for robotic actuation and sensor handling on ESP32 hardware,
+                  focused on reliable communication and compact real-time decision loops.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/SITHILMANETH?tab=repositories" target="_blank" rel="noreferrer">GitHub Repository</a>
+                </div>
+              </div>
             </article>
           </div>
         </div>
@@ -334,52 +373,119 @@
         <div class="container">
           <div class="section-heading reveal">
             <span class="eyebrow">AI Experiments</span>
-            <h2>Applied machine learning exploration with strong emphasis on perception and iteration.</h2>
+            <h2>Experiments in learning systems, computer vision, and AI-robotics integration.</h2>
           </div>
 
           <div class="experiment-grid">
             <article class="experiment-card glass-panel reveal">
               <span class="experiment-label">Experiment 01</span>
-              <h3>Gesture Recognition Pipeline</h3>
-              <p>Hand pose classification for human-machine interaction using lightweight models and temporal smoothing.</p>
+              <h3>Neural Network Behavior Tests</h3>
+              <p>Evaluating compact model architectures for robotic decision support and pattern recognition tasks.</p>
             </article>
             <article class="experiment-card glass-panel reveal">
               <span class="experiment-label">Experiment 02</span>
-              <h3>Predictive Maintenance Signals</h3>
-              <p>Modeling equipment behavior with anomaly scoring to identify failure patterns before system downtime.</p>
+              <h3>Computer Vision Detection Systems</h3>
+              <p>Exploring real-time object understanding for robot perception, scene interpretation, and response planning.</p>
             </article>
             <article class="experiment-card glass-panel reveal">
               <span class="experiment-label">Experiment 03</span>
-              <h3>Edge Vision Benchmarking</h3>
-              <p>Latency and accuracy comparisons across compact inference pipelines for embedded deployment targets.</p>
+              <h3>AI Robotics Integration Studies</h3>
+              <p>Studying how predictive models, visual sensing, and feedback loops can strengthen autonomous behavior.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="education section" id="education">
+      <section class="research section" id="research-learning">
         <div class="container">
           <div class="section-heading reveal">
-            <span class="eyebrow">Education</span>
-            <h2>Academic foundation in robotics, AI, systems engineering, and computational problem solving.</h2>
+            <span class="eyebrow">Research and Learning</span>
+            <h2>Current topics of study and longer-term exploration in robotics intelligence.</h2>
           </div>
 
-          <div class="education-card glass-panel reveal">
-            <div>
-              <span class="education-label">Degree</span>
-              <h3>BSc in Robotics and Artificial Intelligence</h3>
+          <div class="research-layout">
+            <div class="research-topics">
+              <article class="research-card glass-panel reveal">
+                <span class="mini-label">Current research</span>
+                <h3>Robot Learning Systems</h3>
+                <p>Understanding how robots can improve behavior through data, feedback, and structured experimentation.</p>
+              </article>
+              <article class="research-card glass-panel reveal">
+                <span class="mini-label">Current research</span>
+                <h3>Reinforcement Learning</h3>
+                <p>Exploring reward-driven decision making for agents that learn navigation and task strategies over time.</p>
+              </article>
+              <article class="research-card glass-panel reveal">
+                <span class="mini-label">Current research</span>
+                <h3>Human Robot Interaction</h3>
+                <p>Investigating how robots can communicate state, respond safely, and behave more intuitively around people.</p>
+              </article>
+              <article class="research-card glass-panel reveal">
+                <span class="mini-label">Current research</span>
+                <h3>Robot Simulation Environments</h3>
+                <p>Using simulation to test control logic, learning workflows, and robot behavior before hardware deployment.</p>
+              </article>
             </div>
-            <div>
-              <span class="education-label">Institution</span>
-              <p>University of Hertfordshire</p>
+
+            <div class="glass-panel learning-panel reveal">
+              <span class="mini-label">Learning roadmap</span>
+              <h3>Building depth across control, perception, and intelligent autonomous systems.</h3>
+              <ul class="learning-list">
+                <li>Develop stronger simulation-first workflows for navigation and control experiments.</li>
+                <li>Expand computer vision work toward more robust real-time perception pipelines.</li>
+                <li>Connect reinforcement learning concepts with embodied robotics tasks.</li>
+                <li>Improve documentation, research summaries, and reproducible technical demos.</li>
+              </ul>
             </div>
-            <div>
-              <span class="education-label">Focus Areas</span>
-              <p>Autonomous systems, machine learning, embedded systems, control, computer vision</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="github section" id="github-work">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">GitHub and Technical Work</span>
+            <h2>Repository links, highlighted work, and a snapshot of engineering style.</h2>
+          </div>
+
+          <div class="github-layout">
+            <div class="github-stack">
+              <article class="glass-panel github-profile reveal">
+                <span class="mini-label">GitHub profile</span>
+                <h3>SITHILMANETH</h3>
+                <p>Portfolio projects, experiments, and technical work collected in a single public profile.</p>
+                <a class="button button-secondary inline-button" href="https://github.com/SITHILMANETH" target="_blank" rel="noreferrer">Open GitHub Profile</a>
+              </article>
+
+              <article class="glass-panel code-card reveal">
+                <span class="mini-label">Code example</span>
+                <pre><code>while robot_active:
+    frame = camera.capture()
+    obstacles = vision_model.detect(frame)
+    command = controller.plan(obstacles, sensor_state)
+    drive.apply(command)</code></pre>
+              </article>
             </div>
-            <div>
-              <span class="education-label">Status</span>
-              <p>Undergraduate Student</p>
+
+            <div class="repo-grid">
+              <article class="glass-panel repo-card reveal">
+                <span class="repo-type">Highlighted repository</span>
+                <h3>Robotics Portfolio Site</h3>
+                <p>Single-page web presentation for robotics projects, AI experiments, and technical identity.</p>
+                <a href="https://github.com/SITHILMANETH/Maneth-Silva-PP" target="_blank" rel="noreferrer">View repository</a>
+              </article>
+              <article class="glass-panel repo-card reveal">
+                <span class="repo-type">Highlighted repository</span>
+                <h3>Embedded Control Concepts</h3>
+                <p>Space for ESP32 and microcontroller workflows, control logic, and robotics hardware experiments.</p>
+                <a href="https://github.com/SITHILMANETH?tab=repositories" target="_blank" rel="noreferrer">Browse repositories</a>
+              </article>
+              <article class="glass-panel repo-card reveal">
+                <span class="repo-type">Highlighted repository</span>
+                <h3>AI Vision and Learning Notes</h3>
+                <p>Experiments in model behavior, perception pipelines, and robotics-oriented learning studies.</p>
+                <a href="https://github.com/SITHILMANETH?tab=repositories" target="_blank" rel="noreferrer">Browse repositories</a>
+              </article>
             </div>
           </div>
         </div>
@@ -387,21 +493,41 @@
 
       <section class="contact section" id="contact">
         <div class="container">
-          <div class="contact-panel glass-panel reveal">
-            <div class="contact-copy">
+          <div class="contact-layout">
+            <div class="contact-copy reveal">
               <span class="eyebrow">Contact</span>
-              <h2>Open to robotics, AI, and software collaboration opportunities.</h2>
+              <h2>Open to robotics, AI, and research conversations.</h2>
               <p>
-                If you're building something ambitious in autonomy, machine intelligence, or modern product
-                engineering, I'd be interested in hearing about it.
+                Use the form for project discussions, collaboration, or technical networking. Direct links are
+                included for GitHub, LinkedIn, and email.
               </p>
+
+              <div class="contact-list glass-panel">
+                <a href="mailto:67755334+SITHILMANETH@users.noreply.github.com">67755334+SITHILMANETH@users.noreply.github.com</a>
+                <a href="https://github.com/SITHILMANETH" target="_blank" rel="noreferrer">github.com/SITHILMANETH</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn profile</a>
+              </div>
             </div>
 
-            <div class="contact-links">
-              <a href="mailto:maneth.silva@example.com">maneth.silva@example.com</a>
-              <a href="https://github.com/manethsilva" target="_blank" rel="noreferrer">github.com/manethsilva</a>
-              <a href="https://www.linkedin.com/in/manethsilva" target="_blank" rel="noreferrer">linkedin.com/in/manethsilva</a>
-            </div>
+            <form class="glass-panel contact-form reveal" data-contact-form>
+              <label class="field">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required>
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="your@email.com" required>
+              </label>
+
+              <label class="field">
+                <span>Message</span>
+                <textarea name="message" rows="6" placeholder="Tell me about your robotics or AI project." required></textarea>
+              </label>
+
+              <button class="button button-primary" type="submit">Send Message</button>
+              <p class="form-note" data-form-note>Demo form ready. Connect it to your preferred email or form backend when publishing.</p>
+            </form>
           </div>
         </div>
       </section>
@@ -410,7 +536,7 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <p>Maneth Silva</p>
-        <p>Robotics & Artificial Intelligence Undergraduate</p>
+        <p>Robotics and Artificial Intelligence Undergraduate</p>
       </div>
     </footer>
   </div>
